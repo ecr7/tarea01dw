@@ -1,0 +1,59 @@
+nav 
+{
+    background-color: rgb(242, 242, 242);
+    height: 40px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: Arial;
+    font-size: 120%;
+    font-weight: bolder;
+    
+}
+
+ul
+{
+    list-style: circle;
+}
+
+ul li
+{
+  display: contents;
+  padding: 0px;  
+}
+
+header
+{
+    background-color: rgb(215, 215, 215);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor
+{
+    height: 250px;
+    padding: 100px;
+    text-justify: justify;
+    background-color: rgb(255, 255, 255);
+}
+
+footer
+{
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color:rgb(8, 8, 8);  
+}
+
+table, td, th {
+  border: 1px solid;
+}
+
+table, td, th {
+  width: 40%;
+  border-collapse: collapse;
+}
